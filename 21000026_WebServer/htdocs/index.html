@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+            form {
+                width: 300px;
+                text-align: center;
+            }
+            h1 {
+                font-size: 24px;
+                margin-bottom: 20px;
+                color: #007BFF;
+            }
+            input[type="text"] {
+                width: 100%;
+                padding: 10px;
+                margin: 5px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            input[type="submit"] {
+                background-color: #019a39;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            input[type="submit"]:hover {
+                background-color: #21be70;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="add.php" method="post">
+            <h1>Add Two Numbers</h1>
+            <input type="text" name="n1" placeholder="Enter n1" />
+            <br>
+            <input type="text" name="n2" placeholder="Enter n2" />
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+    </body>
+</html>
